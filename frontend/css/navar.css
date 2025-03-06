@@ -1,0 +1,14 @@
+body {
+    background-image: url("/frontend/img/fondozul.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center center;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: "Bubblegum Sans", sans-serif;
+}

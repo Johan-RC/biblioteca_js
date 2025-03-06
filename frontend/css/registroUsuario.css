@@ -1,0 +1,88 @@
+.marco{
+    background-image: url("/frontend/img/fondozul.jpg");
+    background-size:cover;
+    background-position: center center;
+    border: solid none;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0057B7, #0099FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 800px;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+h1 {
+    text-align: right;
+    font-weight: bold;
+    color: #0057B7;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #0057B7;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+input:focus {
+    border-color: #0099FF;
+    box-shadow: 0 0 10px rgba(0, 153, 255, 0.5);
+}
+.name-group {
+    display: flex;
+    justify-content: space-between;
+}
+.name-group input {
+    width: 48%;
+}
+button {
+    background: linear-gradient(135deg, #0057B7, #0099FF);
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+button:hover {
+    background: linear-gradient(135deg, #0044A3, #0068D9);
+}
+.icon {
+
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.icon img {
+    width: 300px;
+}
