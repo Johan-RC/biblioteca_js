@@ -3,38 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca JS</title>
+    <link rel="stylesheet" href="/frontend/css/navar.css">
+    <link rel="stylesheet" href="/frontend/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/frontend/css/registroUsuario.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+    <title>Biblioteca JS</title>
+    <style>
+
+    </style>
 </head>
-<body class="marco">
-<div class="container">
-    <!-- Aquí va el logo o imagen del libro -->
-    <div class="icon">
-        <img src="/frontend/img/leer.png" alt="Libro">
-    </div>
-    <h1>Biblioteca JS</h1>
-    <div class="name-group">
-        <div>
-            <label>Nombre</label>
-            <input type="text" placeholder="Nombre">
+<body>
+    <div class="tarjeta-principal">
+        <div class="seccion-formulario">
+            <div class="fila-formulario">
+                <div class="campo-mitad">
+                    <label class="etiqueta-campo">Nombre</label>
+                    <input type="text" class="campo-texto" placeholder="Nombre">
+                </div>
+                
+                <div class="campo-mitad">
+                    <label class="etiqueta-campo">Apellido</label>
+                    <input type="text" class="campo-texto" placeholder="Apellido">
+                </div>
+            </div>
+            
+            <div class="grupo-entrada">
+                <label class="etiqueta-campo">ID</label>
+                <input type="text" class="campo-texto" placeholder="ID">
+            </div>
+            
+            <div class="grupo-entrada">
+                <label class="etiqueta-campo">Correo electrónico</label>
+                <input type="email" class="campo-texto" placeholder="Correo electrónico">
+            </div>
+            
+            <div class="grupo-entrada">
+                <label class="etiqueta-campo">Número de teléfono</label>
+                <input type="tel" class="campo-texto" placeholder="Número de teléfono">
+            </div>
         </div>
-        <div>
-            <label>Apellido</label>
-            <input type="text" placeholder="Apellido">
+        
+        <div class="seccion-imagen">
+            <h1 class="titulo-biblioteca">Biblioteca JS</h1>
+            <div class="contenedor-imagen-libro">
+                <img src="/frontend/img/leer.png" alt="Imagen de libro" class="imagen-libro">
+            </div>
+            <button class="boton-prestamo">Préstamo</button>
         </div>
     </div>
-    <label>ID</label>
-    <input type="text" placeholder="ID">
-
-    <label>Correo electrónico</label>
-    <input type="email" placeholder="Correo electrónico">
-
-    <label>Número de teléfono</label>
-    <input type="tel" placeholder="Número de teléfono">
-
-    <button>Préstamo</button>
-</div>
 </body>
 </html>

@@ -11,4 +11,7 @@ body {
     padding: 0;
     color: #FFF;
     font-family: "Bubblegum Sans", sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
